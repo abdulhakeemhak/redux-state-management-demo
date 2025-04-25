@@ -1,0 +1,180 @@
+/* ✅ Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ✅ Body */
+body {
+    background: linear-gradient(135deg, #f0f0f0, #d6e6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ✅ Main Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+/* ✅ Headings */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* ✅ Input Field */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 91, 187, 0.3);
+}
+
+/* ✅ Buttons */
+button {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* ✅ User List */
+.user-list {
+    margin-top: 20px;
+}
+
+/* ✅ User Item */
+.user-item {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Makes it responsive */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* ✅ User Name */
+.user-item h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    flex: 1; /* Allows text to wrap */
+}
+
+/* ✅ Delete Button */
+.delete-btn {
+    background: #dc3545;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    background: #b52b3a;
+    
+}
+
+/* ✅ General Edit Button Styling */
+.edit-btn {
+    background: #ffc107;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+@media (max-width: 600px) {
+    .edit-btn, .delete-btn {
+        width: 100%; /* Stack buttons full-width on small screens */
+        margin-top: 8px;
+    }
+}
+
+/* ✅ Tablets & Medium Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .edit-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+/* ✅ Mobile & Small Screens */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .user-item {
+        flex-direction: column; /* Stacks name and button */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .delete-btn {
+        width: 100%;
+        margin-top: 8px;
+    }
+}
+
+/* ✅ Tablets & Medium Screens */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 400px;
+    }
+}
