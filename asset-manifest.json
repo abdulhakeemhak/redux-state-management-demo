@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux-state-management-demo/static/css/main.a467dbfd.css",
+    "main.js": "/redux-state-management-demo/static/js/main.57f5961b.js",
+    "index.html": "/redux-state-management-demo/index.html",
+    "main.a467dbfd.css.map": "/redux-state-management-demo/static/css/main.a467dbfd.css.map",
+    "main.57f5961b.js.map": "/redux-state-management-demo/static/js/main.57f5961b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a467dbfd.css",
+    "static/js/main.57f5961b.js"
+  ]
+}
