@@ -16,7 +16,7 @@ const userSlice = createSlice({
         editUser(state, action) {
             const { index, newName } = action.payload;
             if (state[index]) {
-                state[index] = newName; // Update the user's name
+                state[index] = newName; 
             }
         }
     }

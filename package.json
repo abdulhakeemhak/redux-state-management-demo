@@ -22,6 +22,7 @@
   },
   "homepage": "https://abdulhakeemhak.github.io/redux-state-management-demo",
   "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
@@ -30,5 +31,17 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

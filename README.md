@@ -57,4 +57,4 @@ npm start
 
 ## 💡 Folder Structure
 
-redux-user-manager/ ├── src/ │ ├── components/ │ │ ├── AddUser.js │ │ └── ViewUser.js │ ├── redux/ │ │ └── UserSlice.js │ ├── App.js │ └── index.js ├── Redux.css ├── .gitignore └── README.md
+redux-user-manager/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── UserForm.jsx │ │ └── UserList.jsx │ ├── redux/ │ │ └── UserSlice.js │ ├── store.js │ ├── App.js │ └── index.js ├── Redux.css ├── .gitignore ├── screenshots/ ├── package.json └── README.md
