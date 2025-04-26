@@ -1,26 +1,31 @@
 {
-  "name": "redux",
+  "name": "redux-user-manager",
   "version": "1.0.0",
   "description": "A simple and responsive React + Redux Toolkit app to Add, View, Edit, and Delete Users — all with beautiful UI and state management using Redux!",
   "main": "store.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdulhakeemhak/redux-state-management-demo.git"
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "https://abdulhakeemhak.github.io/redux-state-management-demo",
+  "keywords": [
+    "react",
+    "redux",
+    "redux-toolkit",
+    "user-management"
+  ],
+  "author": "Abdul Hakeem",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abdulhakeemhak/redux-state-management-demo/issues"
   },
-  "homepage": "https://abdulhakeemhak.github.io/redux-state-management-demo",
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
     "react": "^19.1.0",
