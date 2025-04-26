@@ -8,7 +8,7 @@ A simple and responsive **React + Redux Toolkit** app to **Add, View, Edit, and 
 
 ![App Screenshot](./screenshots/demo.png)
 
-> Live demo coming soon...
+🔗 [View Live Website](https://abdulhakeemhak.github.io/hakfolio/)
 
 ---
 
