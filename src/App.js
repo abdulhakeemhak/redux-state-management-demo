@@ -1,6 +1,7 @@
 import React from 'react'
-import AddUser from './AddUser';
-import ViewUser from './ViewUser';
+import './Redux.css';
+import AddUser from './components/AddUser';
+import ViewUser from './components/ViewUser';
 
 function App() {
   return (

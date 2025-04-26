@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteUser, editUser } from "./UserSlice";
-import "./Redux.css";
+import { deleteUser, editUser } from "../redux/UserSlice";
 
 function ViewUser() {
   const usersData = useSelector((state) => state.Users);

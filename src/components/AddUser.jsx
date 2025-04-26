@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { addUser } from "./UserSlice";
+import { addUser } from "../redux/UserSlice";
 import { useDispatch } from "react-redux";
-import "./Redux.css"; 
 
 function AddUser() {
   const [input, setInput] = useState("");

@@ -55,6 +55,20 @@ npm install
 # Start the app
 npm start
 
-## 💡 Folder Structure
-
-redux-user-manager/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── UserForm.jsx │ │ └── UserList.jsx │ ├── redux/ │ │ └── UserSlice.js │ ├── store.js │ ├── App.js │ └── index.js ├── Redux.css ├── .gitignore ├── screenshots/ ├── package.json └── README.md
+redux-user-manager/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── UserForm.jsx
+│   │   └── UserList.jsx
+│   ├── redux/
+│   │   └── UserSlice.js
+│   ├── store.js
+│   ├── App.js
+│   └── index.js
+├── Redux.css
+├── .gitignore
+├── screenshots/
+├── package.json
+└── README.md
